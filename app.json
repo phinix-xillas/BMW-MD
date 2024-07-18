@@ -10,13 +10,13 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"+",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":" 𝐁𝐌𝐖-𝐗𝐌𝐃",
+      "value":" PHINIX BOT",
       "required":false
 
     } ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -67,14 +67,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNEJPOXpqZngvbUdPb2FpekxRYmJmV0pKM1NoSC91QkU1b2w0aWpYd2JYYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY1F6L085QTcyOGIvUDVXVFVLWEd1K21TcFlmZjNDVUk1cXIxTXorNnBIQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1SmJpSUQ4OUVaKzlodzNIMFY1MXpBcGtqSjZjbWt0amdiTEVvZWRPcWxJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIxaXhPY3NGU2xsVVJuYm5wTTJXMmxwZko2MmRZWTgzUVhGUERraE5haWxBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImtGR1FkTXV0S1dValJiZWI3akptVWFSSndQYktpTm1rbDBEQ041RkZSMzA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkREOWx4QXY1Y1YxV0Y3L0huVHN1MFpTRWlINFphbExodE9HYWdQcFBXekU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUFwc3E1NnMxT1dhbWZWUTl0R1EvNnNEcHI4RlFMTU9yU1FaaVBMN0JYWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicXJ4bWF0SDE1UlNSRlh2dnN0VWZxaEpPZlREZ2RsbGptTzlqVUM4ckZIbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklqMCs5K1JJR3ZtN0U4R1RjK0x6d1Jad1hrRC80NnR6UEtVNklxWlFoSWRWaFZiVkZEUitXOEtPZ3dMZGVUUHBIeHRMZkIzeHNVQU1mcUNsZDFOR2pBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI2LCJhZHZTZWNyZXRLZXkiOiJkRWwwRTVlRjB0NUs1QXJhSmQ0UEZzNmhIdHRPd0VWeEl3NU8yZzZBbDVRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI3MC16WHMyZFFTdS1hS3RhZTlGeXJBIiwicGhvbmVJZCI6ImQ4YmU3MzEyLWVmYmEtNGZkOC04ZTQzLTQyMjIxZjNkNzdkZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXa2JBeUxzbDBqaVJlZlpJZXhkWWJVOCtRM0E9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR3MxUDFnT2kvMWdnYWJBcUlBWHJ4cDNER2pZPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkNaUVlRNlFGIiwibWUiOnsiaWQiOiIyNTQ3OTgzMDI0MTA6ODRAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiYc2OzY3NkO+/q1xuXG5cbm7Njs2NzZDvv6tcblxuXG5uzY7Njc2Q77+rXG5cbnXNjs2NzZDvv6tcblxuXG5uzY7Njc2Q77+rXG5cbmHNjs2NzZDvv6tcblxua82OzY3NkO+/q1xuXG5pzY7Njc2Q77+rXG5cbmXNjs2NzZDvv6tcblxubc2OzY3NkO+/q1xuXG5wzY4ifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tPTTA1TURFUERyNHJRR0dBa2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Iml1RmFmSG94TUEvOWp6UWZXVkZDU0ovL2oyZFBqREpEc0NLTDFFT0pXVFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ik9hRk1lSEhpMWFyWWIvQWlqMmp0OGFMeG1hSzE3VitKd1B6am9Ec2JXRVNaTnhTSmt2WUUxUUQraThEMXhiMWFYbXMveE5aV3A5QzkyNXZXWnpuQkFBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJEQjVGTlJtNFNWc0pCdm8zdGpuMlI0VHdUeVc0MFYzMG5rbmVLcFVWaTFFVGRrYjR2RnZMeUhaWFdrdVdXUVlIU3d3MndGbmxFM0tPL0pPWHczUUNqQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc5ODMwMjQxMDo4NEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJZcmhXbng2TVRBUC9ZODBIMWxSUWtpZi80OW5UNHd5UTdBaWk5UkRpVmsxIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIxMjg0MDk0LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUdEYSJ9",
       "required":true
       
     },
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "PHINIX",
     "required": false,
     "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },
@@ -83,7 +83,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254739937062,254710772666"
+    "value": "254798302410,254798758272"
   },
     "WARN_COUNT":
   {
@@ -104,7 +104,7 @@
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "yes",
     "required": false
   }
   },
